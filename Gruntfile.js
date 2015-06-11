@@ -496,8 +496,20 @@ module.exports = function(grunt) {
         src: '<%= toggleComments.index.src %>',
         dest: '<%= toggleComments.index.src %>'
       }
+    },
+
+    ehaCordovaBuild: {
+      options: {
+        appDescription: 'User centered medical supply management',
+        appdir: 'move',
+        package: 'com.ehealthafrica.lomis',
+        appname: 'Move',
+        buildCmd: 'grunt build:{%= type %}'
+      }
     }
   });
+
+  grunt.loadNpmTasks('eha-cordova-build');
 
   grunt.registerTask('serve', function(target) {
     if (target === 'dist') {

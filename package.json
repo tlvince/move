@@ -16,6 +16,7 @@
     "cordova-plugin-network-information": "^1.0.0",
     "cordova-plugin-vibration": "^1.1.0",
     "cordova-plugin-whitelist": "^1.0.0",
+    "eha-cordova-build": "ehealthafrica/eha-cordova-build",
     "eslint-no-exclusive-tests": "^0.1.0",
     "grunt": "^0.4.5",
     "grunt-angular-gettext": "^2.1.0",

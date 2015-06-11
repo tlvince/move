@@ -20,6 +20,6 @@ type="snapshot"
   tar xvf .android/release-files.tar -C .android
 }
 
-./scripts/build.sh "$type"
+grunt ehaCordovaBuild:"$type"
 # Deploy only the resulting APK(s), not the interim artefacts
-rm -rf build/lomis
+rm -rf build/move
