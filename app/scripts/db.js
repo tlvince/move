@@ -22,7 +22,6 @@ angular.module('db', [])
  INVENTORY: 'inventory',
  LOCATIONS: 'locations',
  MODE_OF_ADMINISTRATION: 'mode_of_administration',
- ORDERS: 'orders',
  PRODUCT_CATEGORY: 'product_category',
  PRODUCT_FORMULATIONS: 'product_formulations',
  PRODUCT_PRESENTATION: 'product_presentation',
